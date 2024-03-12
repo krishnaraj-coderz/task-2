@@ -1,0 +1,242 @@
+body{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+.contact-us-button{
+    width: 172px;
+    height: 54px;
+    background-color: #FD810A;
+    border: none;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.rounded-icon-background{
+    position: relative;
+    height: 36px;
+    width: 36px;
+    background-color: #FD810A;
+    border-radius: 100px;  
+}
+
+.rounded-icon{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.header-two{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+    color:#0E0E37;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    color:#FD810A !important;
+}
+
+p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+header{
+    margin-top: 20px;
+
+    h4{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #0E0E37;
+    }
+
+    .header-content > div{
+        margin-left:80px;
+    }
+    
+    .header-words{
+        margin-left: 20px;
+    }
+    
+    .address{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        color:#515151;
+    }
+}
+
+nav{
+    height: 71px;
+    background-color:#FD810A;
+    margin-top:10px;
+
+    .nav-link{
+        color:#FFFFFF;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+            }
+
+    .nav-item{
+        padding-right:30px;
+
+    }
+}
+
+.testinomials{
+    height: 649px;
+    background-color: #0E0E37D6;
+        
+    h1{
+        font-size: 80px;
+        line-height: 90px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+        
+    p{
+        color:#FFFFFF;
+        text-align: center;
+    }
+
+    .orange-text{
+        font-family: Raleway;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color:#FD810A;
+    }
+}
+
+.client-testinomial{
+    height: 813px;
+    padding: 150px 0;
+    
+    h2{
+        text-align: left;
+    }
+    p{          
+        color:#515151;
+        text-align: left;
+    }  
+
+    .client-testinomial-topic-left{
+        width: 523px;
+        height: 185px;
+    }
+
+    .client-testinomial-topic-right p{
+        width:670px;
+    }
+
+    .client-testinomial-slider{
+        margin-top:150px;
+
+        .clients-content{
+            height: 465px;
+            box-shadow: 0px 0px 4px 3px #0000000A;
+            text-align: center;
+      
+            .quotation-icon{
+                position:relative;
+                top: -40px;
+            }
+            .testinomial-text,p{
+                width:300px;
+                text-align: center;
+                margin: auto;
+            }
+                                
+            .circle-icon{
+                width: 61px;
+                height: 61px;
+                border-radius: 100px;
+                background-color: #515151;
+                margin:30px auto;
+            }        
+        }
+
+    }
+    .orange-dash{
+        width: 34px;
+        height: 12px;
+        background-color: #FD810A;
+        margin: 20px 5px;
+    }
+
+    .blue-dash{
+        width: 15px;
+        height: 12px;
+        background-color: #0E0E37;
+        margin: 20px 5px;
+
+    }
+}  
+
+.projects{
+
+    .project-heading{
+        width:690px;
+        text-align: center;
+        margin-top: 250px;
+
+        h2{
+            padding-bottom:40px;
+        }
+        p{
+            padding-bottom:40px;
+        }
+    }
+
+    .project-box{
+        position: relative;
+        background-color:#515151;
+        height: 456px;
+    }
+
+    .box-text{
+        position: absolute;
+        width: 250px;
+        bottom:10px;
+        left:10px;
+    }
+
+    h5{
+        font-size: 20px;
+        line-height: 23px;
+        color:#FFFFFF
+    }
+
+    h4{
+        color:#FFFFFF
+    }
+
+    .all-logos{
+        margin-top: 80px;
+
+        img{
+            object-fit:contain;
+        }
+    }
+
+}
+
+
+
+
+
+
