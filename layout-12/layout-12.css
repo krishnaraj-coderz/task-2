@@ -4,7 +4,7 @@ body{
         font-style: normal;
       }
 
-.contact-us-button{
+.orange-button{
     width: 172px;
     height: 54px;
     background-color: #FD810A;
@@ -218,11 +218,15 @@ nav{
     h5{
         font-size: 20px;
         line-height: 23px;
-        color:#FFFFFF
+        color:#FFFFFF;
     }
 
     h4{
-        color:#FFFFFF
+        color:#FFFFFF;
+    }
+
+    p{
+        color:#F5F5F5;
     }
 
     .all-logos{
@@ -235,7 +239,62 @@ nav{
 
 }
 
+.faq{
+    margin-top: 40px;
+    .large-box{
+        position: relative;
+        width: 643px;
+        height: 430px;
+        background-color: #515151;
+    }
 
+    .small-box{
+        position:absolute;
+        width: 480px;
+        height: 170px;
+        background-color: #FD810A;
+        bottom: -80px;
+        right:-50px;
+        border:10px solid #FFFFFF;
+
+        h2,h5{
+            color:#FFFFFF;
+            text-align: center;
+        }
+        .horizontal-line{
+            height: 126px;
+            width:2px;
+            background-color:#0E0E37;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
+
+    .faq-right{
+        margin-left: 20px;
+    }
+
+    p{
+        color:#515151;
+    }
+}
+
+.count-stats{
+    background-color:#FAFAFA;
+    width: 1920px;
+    height: 235px;
+    border-top:100px solid white;
+}
+
+.building-insights{
+    
+    .blogs{
+        .blog-post{
+            width: 350px;
+            height: 542px;
+        }
+    }
+}
 
 
 
