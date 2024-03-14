@@ -281,19 +281,145 @@ nav{
 
 .count-stats{
     background-color:#FAFAFA;
-    width: 1920px;
     height: 235px;
-    border-top:100px solid white;
+    margin:100px 0;
+    h2{
+        color:#FD810A;
+    }
+
+    h5{
+        color:#0E0E37;
+    }
+
 }
 
 .building-insights{
-    
+    margin-top: 20px;
+
+    .thumbnail-image{
+        width:350px;
+    }
+
+    .blog-section-title{
+        width:570px;
+        margin:auto;      
+    }
+
     .blogs{
+
         .blog-post{
             width: 350px;
             height: 542px;
+            text-align:left ;
+
+            .thumbnail{
+                position: relative;
+            }
+
+            .orange-tag{
+                position:absolute;
+                width: 116px;
+                height: 25px;
+                background-color: #FD810A;
+                color:#FFFFFF;
+                text-align: center;
+                z-index: 1;    
+                top:25px;  
+                right: 5px;                      
+            }
+
+            .thumbnail-image{
+                z-index: 0;
+            }
+            
+            .blog-details > div{
+                padding-right: 30px;
+                z-index: 1;
+            }
+
+            .blog-icon{
+                padding-right: 10px;
+            }
+
+            a{
+                text-decoration: none;
+                color:#0E0E37;
+
+                .button-text-orange{
+                    color:#FD810A;
+                }
+            }
         }
+
+        img{
+              object-fit:contain;
+            }
     }
+
+    .orange-button{
+        margin-top: 60px;
+    }
+}
+
+.contact-us{
+    position: relative;
+    height:425px;
+    background-color:#FAFAFA;
+    bottom:-130px;
+    
+    .contact-words{
+        width:574px;
+        padding-left:10px
+    }
+
+    .mask-image{
+        position:absolute;
+        top:-200px;
+        right:0px;
+    }
+   
+}
+
+footer{
+    height: 741px;
+    background-color: #0E0E37;
+    color:#FFFFFF;
+
+    .footer-elements{
+        padding-top:200px;
+    }
+
+    .logo-social{
+        width:330px;
+    }
+    
+    .about-us{
+        width:184px;
+    }
+
+    .contact-details{
+        width:228px;
+    }
+
+    .news-subscription{
+        width: 306px;
+    }
+    ul{
+        list-style:url(./iwwa_arrow-up.png);
+        
+    }
+
+    .subscription input{
+        height: 54px;
+    }
+
+    .copyright-text{
+        margin-top: 200px;
+        padding-top: 30px;
+        border-top:1px solid #F5F5F5;
+    }
+
+
 }
 
 
