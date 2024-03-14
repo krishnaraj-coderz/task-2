@@ -5,8 +5,8 @@ body{
       }
 
 .orange-button{
-    width: 172px;
-    height: 54px;
+    width: 152px;
+    height: 50px;
     background-color: #FD810A;
     border: none;
     color:#FFFFFF;
@@ -17,7 +17,7 @@ body{
 .rounded-icon-background{
     position: relative;
     height: 36px;
-    width: 36px;
+    min-width: 36px;
     background-color: #FD810A;
     border-radius: 100px;  
 }
@@ -46,7 +46,7 @@ h6{
 }
 
 p{
-    font-family: Raleway;
+    /* font-family: Raleway; */
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -55,15 +55,13 @@ p{
 header{
     margin-top: 20px;
 
+    
     h4{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
         line-height: 28px;
         color: #0E0E37;
-    }
-
-    .header-content > div{
-        margin-left:80px;
+        margin-right: 0;
     }
     
     .header-words{
@@ -72,7 +70,7 @@ header{
     
     .address{
         font-family: Roboto;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 21px;
         color:#515151;
@@ -188,17 +186,20 @@ nav{
 }  
 
 .projects{
+    overflow-x: hidden;
 
     .project-heading{
         width:690px;
         text-align: center;
         margin-top: 250px;
+        
 
         h2{
             padding-bottom:40px;
         }
         p{
             padding-bottom:40px;
+            color:#515151;
         }
     }
 
@@ -206,6 +207,8 @@ nav{
         position: relative;
         background-color:#515151;
         height: 456px;
+        margin-bottom: 50px;
+
     }
 
     .box-text{
@@ -230,7 +233,7 @@ nav{
     }
 
     .all-logos{
-        margin-top: 80px;
+        margin-bottom: 80px;
 
         img{
             object-fit:contain;
@@ -240,7 +243,7 @@ nav{
 }
 
 .faq{
-    margin-top: 40px;
+    margin-bottom: 50px;
     .large-box{
         position: relative;
         width: 643px;
@@ -271,7 +274,15 @@ nav{
     }
 
     .faq-right{
-        margin-left: 20px;
+        padding-left: 60px;
+
+        .question{ 
+            border-bottom:1px solid #0E0E37;
+        }
+        .orange-text{
+                color:#FD810A !important;
+                border-bottom:1px solid #FD810A;
+            }
     }
 
     p{
@@ -282,7 +293,7 @@ nav{
 .count-stats{
     background-color:#FAFAFA;
     height: 235px;
-    margin:100px 0;
+    margin-bottom: 50px;
     h2{
         color:#FD810A;
     }
@@ -346,7 +357,7 @@ nav{
                 color:#0E0E37;
 
                 .button-text-orange{
-                    color:#FD810A;
+                    color:#FD810A !important;
                 }
             }
         }
@@ -373,9 +384,10 @@ nav{
     }
 
     .mask-image{
+        /* width:250px; */
         position:absolute;
         top:-200px;
-        right:0px;
+        right:10px;
     }
    
 }
@@ -387,6 +399,7 @@ footer{
 
     .footer-elements{
         padding-top:200px;
+        margin-bottom: 200px;
     }
 
     .logo-social{
@@ -406,7 +419,6 @@ footer{
     }
     ul{
         list-style:url(./iwwa_arrow-up.png);
-        
     }
 
     .subscription input{
@@ -414,8 +426,8 @@ footer{
     }
 
     .copyright-text{
-        margin-top: 200px;
-        padding-top: 30px;
+        padding-top: 10px;
+        margin-bottom: 20px;
         border-top:1px solid #F5F5F5;
     }
 
