@@ -186,7 +186,7 @@ nav{
 }  
 
 .projects{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
     .project-heading{
         width:690px;
@@ -202,13 +202,17 @@ nav{
             color:#515151;
         }
     }
+    
+    .box-col{
+        padding-right: none;
+    }
 
     .project-box{
         position: relative;
         background-color:#515151;
         height: 456px;
+        width:320px;
         margin-bottom: 50px;
-
     }
 
     .box-text{
@@ -379,15 +383,16 @@ nav{
     bottom:-130px;
     
     .contact-words{
-        width:574px;
-        padding-left:10px
+        position:relative;
+        top:190px;
+        width:504px;
     }
 
     .mask-image{
-        /* width:250px; */
-        position:absolute;
-        top:-200px;
-        right:10px;
+        /* width:500px; */
+        position:relative;
+        top:-100px;
+        right:50px;
     }
    
 }
